@@ -17,10 +17,10 @@ head(SCC, n = 5)
 baltimore.city <- subset (NEI, fips == "24510")
 total.PM25year <- tapply(baltimore.city$Emissions, baltimore.city$year, sum)
 
-Prepraracion para la graficacion
+#Prepraracion para la graficacion
 png("D:/censo 2010/data/Plot2.png")
 plot(names(total.PM25year), total.PM25year, type = "l", xlab="Year", ylab= expression("Total" ~ PM[2.5] ~ "Emissions (tons)"), main=expression("Total for Baltimore City" ~ PM[2.5] ~ "Emissions by Year"), col = "blue")
 dev.off()     
 
-Dibujo en pantall
+#Dibujo en pantall
 plot(names(total.PM25year), total.PM25year, type = "l", xlab="Year", ylab=expression("Total" ~ PM[2.5] ~ "Emissions (tons)"), main=expression("Total for Baltimore City" ~ PM[2.5] ~ "Emissions by Year"), col="blue")

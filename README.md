@@ -1,6 +1,6 @@
 # Exploratory_Data_Analysis
 Course Project 2
-Exploratory Data Analysis Project
+EDGAR OMAR SILVA VELARDE
 ========================================================
 
 #Assignment 2

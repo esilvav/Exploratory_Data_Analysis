@@ -1,7 +1,5 @@
 # Exploratory Data Analysis.
-# Date: 20.09.2014 - 21.09.2014
 # Course Project 2
-# File name: CompleteCode.R
 # PREGUNTA 1:
 # Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? 
 # Using the base plotting system, make a plot showing the total PM2.5 emission from 
